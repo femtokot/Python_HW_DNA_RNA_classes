@@ -1,4 +1,3 @@
-
 class Dna(str):
     def __new__(cls, value):
         if not set(value).issubset(set("ATGCatgc")):
@@ -39,7 +38,6 @@ class Dna(str):
         print(transcribed)
 
 
-
 class Rna(str):
      def __new__(cls, value):
         if not set(value).issubset(set("AUGCaugc")):
@@ -65,11 +63,3 @@ class Rna(str):
             if nucleotide in "Cc":
                 rev_comp_seq = 'G' + rev_comp_seq
         print(rev_comp_seq)
-
-x = Rna('uuAggcgcgu')
-x.gc()
-x.reverse_complement()
-y=Dna('tttttttaaaaaccc')
-y.gc()
-y.transcribe()
-y.reverse_complement()
