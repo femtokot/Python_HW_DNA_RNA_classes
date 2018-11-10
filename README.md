@@ -15,7 +15,7 @@ For DNA you can obtain the result of transcription by transcribe method
 
 ## Input - DNA or RNA sequence: 
 
-```
+```python3
 x = Dna("tttttttaaaaaccc")
 y = Rna ("uuAggcgcgu")
 ```
