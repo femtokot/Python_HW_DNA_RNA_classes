@@ -11,29 +11,30 @@ GC method calculates GC contend of nucleotide sequence
 For DNA you can obtain the result of transcription by transcribe method
 
 ******************************************************************************************************
-Usage  
+# Usage  
 
-***Input - DNA or RNA sequence: 
+## Input - DNA or RNA sequence: 
 
+```
 x = Dna("tttttttaaaaaccc")
 y = Rna ("uuAggcgcgu")
-
+```
 Uppercase and lowercase is acceptable. In the case of input sequence contaning symbols different from nucleotides error message will appear: 'Not DNA.' or 'Not RNA.'
 
 
-***Calculating of GC content 
+## Calculating of GC content 
 
 Example:
-
+```
 input   x.gc()  
 output  20.0 
 
 input   y.gc()
 output  60.0
+```
 
-
-***Reverse-complement strand: 
-
+## Reverse-complement strand: 
+```
 For DNA:
 input   x.reverse_complement() 
 output  GGGTTTTTAAAAAAA      
@@ -42,8 +43,8 @@ output  GGGTTTTTAAAAAAA
 For RNA:
 input   y.reverse_complement()    
 output  ACGCGCCUAA   
-
-***Transcribtion DNA sequence to RNA sequence: 
+```
+## Transcribtion DNA sequence to RNA sequence: 
 DNA is coding strand!!!!!!!
 Class Dna method
 
