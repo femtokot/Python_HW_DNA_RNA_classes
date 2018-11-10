@@ -44,7 +44,7 @@ input   y.reverse_complement()
 output  ACGCGCCUAA   
 
 ***Transcribtion DNA sequence to RNA sequence: 
-
+Assumption - DNA is coding strand
 Class Dna method
 
 input   y.transcribe() 
