@@ -48,6 +48,8 @@ output  ACGCGCCUAA
 DNA is coding strand!!!!!!!
 Class Dna method
 
+```
 input   y.transcribe() 
 output  UUUUUUUAAAAACCC
+```
     
