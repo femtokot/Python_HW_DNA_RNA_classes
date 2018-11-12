@@ -1,4 +1,3 @@
-
 class Dna(str):
     def __new__(cls, value):
         if not set(value).issubset(set("ATGCatgc")):
@@ -37,7 +36,6 @@ class Dna(str):
             if nucleotide in "Cc":
                 transcribed = transcribed + 'C'
         return(transcribed)
-
 
 
 class Rna(str):
