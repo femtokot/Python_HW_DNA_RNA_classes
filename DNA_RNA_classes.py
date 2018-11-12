@@ -9,7 +9,7 @@ class Dna(str):
         for nucleotide in self:
             if nucleotide in "GCgc":
                 gc_number += 1
-        return(round(((gc_number/len(self)) * 100),1))
+        return(round(((gc_number / len(self)) * 100),1))
 
     def reverse_complement(self):      # invert to reverse-complement strand
         rev_comp_seq = ""
@@ -49,7 +49,7 @@ class Rna(str):
         for nucleotide in self:
             if nucleotide in "GCgc":
                 gc_number += 1
-        return(round(((gc_number/len(self)) * 100),1))
+        return(round(((gc_number / len(self)) * 100),1))
 
      def reverse_complement(self):                 # transcribes DNA to RNA
         rev_comp_seq = ""
